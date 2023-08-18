@@ -33,7 +33,7 @@ Go back to your registry, and set your `StreamEffectClsid` to `{62dc1a93-ae24-46
 
 These CLSID's/strings will essentially force your headphones' driver into using the default windows audio enhancements rather than their own.
 Now, restart and check if the effects are there. They should be.
-# I did that, but the effects didn't show up!
+# I did that, but the effects didn't show up/aren't actually working!
 Some audio drivers "force" their effects to be used by overwriting the registry on startup. If you have this problem, you have to manually change [this githubs](https://github.com/Falcosc/enable-loudness-equalisation/blob/main/EnableLoudness.ps1)' PS1 file to match your computer's needs (the file assumes your computer uses `{D04...D1D},1 & {D04...D1D},2` set to `{62dc1a93-ae24-464c-a43e-452f824c4250}` and `{637c490d-eee3-4c0a-973f-371958802da2}` respectively, but if you found different numbers appended to the end of `{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D}` you MUST change those to match your computer. For example, if your oem inf showed
 ```
 PKEY_FX_StreamEffectClsid = {D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},x 
