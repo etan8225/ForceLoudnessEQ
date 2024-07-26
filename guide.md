@@ -1,5 +1,5 @@
 # ForceLoudnessEQ Guide
-#### *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
+### *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
 If you want your audio enhancements as per usual, you'll need to change some windows settings first. This is for users who know how to update their drivers manually, and if you are uncertain, I would err on the side of caution and not do this. You _**may**_ be able to skip to the second section and have this guide still work, but it may not be as permanent as you would like or it may not work at all.
 1. Start by pressing WindowsKey+R, and type in "sysdm.cpl", then hit enter.
 
@@ -47,8 +47,8 @@ Ensure the top option, "App Updates", is disabled.
 
 ![image](https://github.com/user-attachments/assets/d4cb949d-8811-4cc0-a3e3-13770cc49694)
 
-You can close the Microsoft Store now, but you are not done with it. You will need to run [this powershell script](Prevent_MS_Store_Updates.ps1) to be able to fully disable Windows Store updates.
+You can close the Microsoft Store now, but you are not done with it. You will need to run [this powershell script](Prevent_MS_Store_Updates.ps1) with administrator privileges to be able to fully disable Windows Store updates. Now, windows will not continue to download ANY software other than windows updates onto your PC.
 
-#### *__Second goal: Remove software that prevents audio effects from working.__*
+### *__Second goal: Remove software that prevents audio effects from working.__*
 
 
