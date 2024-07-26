@@ -3,10 +3,10 @@ MAJOR NOTE: I may update this later, but in the meantime, go to [this youtube vi
 
 Force Loudness EQ for outputs that support enhancements - note, this will disable all software enhancements made by the headset (like DTS:X)
 
-After having my own problems with enabling Loudness EQ, I decided to make this repo for those trying to implement it themselves. But, I figure I should start out with the basics.
+After having my own problems with enabling Loudness EQ, I decided to make this guide for those trying to implement it themselves. But, I figure I should start out with the basics. Skip to the "guide" section if you only want the solution.
 
 # Why are enhancements auto-enabled with some audio drivers and not others?
-Certain audio drivers may reference their own sAPO's (system effect APOs). This allows headphone manufacturers to implement, for example, DTS:X audio effects. These effects are generally kept in your headphone drivers' registry folder, located at
+Certain audio drivers may reference their own sAPO's (system effect APOs). This allows headphone manufacturers to implement, for example, DTS:X audio effects. These effects are enabled in your headphone drivers' registry folder, located at
 
 `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}\FxProperties`
 
