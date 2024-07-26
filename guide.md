@@ -1,6 +1,6 @@
 # ForceLoudnessEQ Guide
 ### *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
-If you want your audio enhancements as per usual, you'll need to change some windows settings first. This is for users who know how to update their drivers manually, and if you are uncertain, I would err on the side of caution and not do this. You _**may**_ be able to skip to the second section and have this guide still work, but it may not be as permanent as you would like or it may not work at all.
+If you want your audio enhancements, you'll need to change some windows settings first. This guide is for users who know how to update their drivers manually. If you are uncertain, I would err on the side of caution and not do this. You _**may**_ be able to skip to the second section and have this guide still work, but the audio effects may not be permanent/may not work at all.
 1. Start by pressing WindowsKey+R, and type in "sysdm.cpl", then hit enter.
 
 ![image](https://github.com/user-attachments/assets/d457e956-052f-4308-9d19-629a90430cc7)
@@ -13,6 +13,7 @@ And in the window that pops up, ensure "No" is selected, and hit "Save Changes".
 
 ![image](https://github.com/user-attachments/assets/5ca72e45-2e5c-4eef-8c00-f055199e1712)
 
+Note: This will prevent windows from updating your drivers, although this is required for some of the  
 2. Then, open run again with WindowsKey+R, and type in "gpedit.msc".
 
 ![image](https://github.com/user-attachments/assets/aef780b3-b62d-4cce-b4a8-773d974fe618)
