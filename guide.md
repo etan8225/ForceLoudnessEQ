@@ -1,5 +1,5 @@
 # ForceLoudnessEQ Guide
-### *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
+## *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
 If you want your audio enhancements, you'll need to change some windows settings first. This guide is for users who know how to update their drivers manually. If you are uncertain, I would err on the side of caution and not do this. You _**may**_ be able to skip to the second section and have this guide still work, but the audio effects may not be permanent/may not work at all.
 1. Start by pressing WindowsKey+R, and type in "sysdm.cpl", then hit enter.
 
@@ -49,11 +49,11 @@ Ensure the top option, "App Updates", is disabled.
 
 ![image](https://github.com/user-attachments/assets/d4cb949d-8811-4cc0-a3e3-13770cc49694)
 
-You can close the Microsoft Store now, but you are not done with it. You will need to run [this powershell script](Prevent_MS_Store_Updates.ps1) with administrator privileges to be able to fully disable Windows Store updates. Now, windows will not continue to download ANY software other than windows updates onto your PC.
+You can close the Microsoft Store now, but you are not done with it. You will need to run [this powershell script](Prevent_MS_Store_Updates.ps1) with administrator privileges to be able to fully disable Windows Store updates. Now, windows will not continue to download ANY software other than windows updates onto your PC. Note: This script disables auto-installed crap that microsoft tries to install on your pc, like candy crush, but I also believe it can install Dolby.
 
 
 
-### *__Second goal: Remove software that prevents audio effects from working.__*
+## *__Second goal: Remove software that prevents audio effects from working.__*
 Before you proceed, I'd recommend to disable (DO NOT REMOVE IT) the service "DeviceInstall" temporarily to ensure drivers do not get automatically installed during this process. You can do this in task manager. Once this goal is done, you can re-enable this service.
 
 1. First things first, go to your Apps and Features tab in windows settings, and remove all apps that have the keywords "Realtek" "intelligo" "Dolby" "NGenuity". If you know of any other apps effecting your audio set up, I'd highly recommend removing those as well.
@@ -73,7 +73,7 @@ _**IF and only IF you skipped goal one, this would be a good time to check if th
 
 
 
-### *__Last goal: Install the correct drivers, and enable the effects.__*
+## *__Last goal: Install the correct drivers, and enable the effects.__*
 If you got to this point, you now only need to switch your headphones' driver to windows default one (High Definition Audio Device) & edit the registry to be able to use the effects.
 
 1. Go to WindowsKey+R, type in "mmsys.cpl", and right click the audio device that you wish to use loudness equalization on. Go to properties. Your screen should look something like this, except with different drivers. If these drivers are the ones you have (like, you have "Generic USB Audio") you can skip this step.
