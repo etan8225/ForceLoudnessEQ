@@ -73,7 +73,7 @@ _**IF and only IF you skipped goal one, this would be a good time to check if th
 
 
 
-### *__Last goal: Enable the effects.__*
+### *__Last goal: Install the correct drivers, and enable the effects.__*
 If you got to this point, you now only need to switch your headphones' driver to windows default one (High Definition Audio Device) & edit the registry to be able to use the effects.
 
 1. Go to WindowsKey+R, type in "mmsys.cpl", and right click the audio device that you wish to use loudness equalization on. Go to properties. Your screen should look something like this, except with different drivers. If these drivers are the ones you have (like, you have "Generic USB Audio") you can skip this step.
