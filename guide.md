@@ -51,6 +51,8 @@ Ensure the top option, "App Updates", is disabled.
 
 You can close the Microsoft Store now, but you are not done with it. You will need to run [this powershell script](Prevent_MS_Store_Updates.ps1) with administrator privileges to be able to fully disable Windows Store updates. Now, windows will not continue to download ANY software other than windows updates onto your PC.
 
+
+
 ### *__Second goal: Remove software that prevents audio effects from working.__*
 Before you proceed, I'd recommend to disable (DO NOT REMOVE IT) the service "DeviceInstall" temporarily to ensure drivers do not get automatically installed during this process. You can do this in task manager. Once this goal is done, you can re-enable this service.
 
@@ -68,6 +70,8 @@ Once you are done disabling and removing the services, you will need to go to de
 these services, or else you may have to repeat this "second goal" section again.
 
 _**IF and only IF you skipped goal one, this would be a good time to check if the driver's will forcefully reisntall themselves anyway. I would restart your PC, and check task manager for those services / device manager for the devices. If they do, you'll most likely need to go through the instructions in goal one fully.**_
+
+
 
 ### *__Last goal: Enable the effects.__*
 If you got to this point, you now only need to switch your headphones' driver to windows default one (High Definition Audio Device) & edit the registry to be able to use the effects.
