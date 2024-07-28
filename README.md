@@ -1,5 +1,5 @@
 # ForceLoudnessEQ
-MAJOR NOTE: I may update this later, but in the meantime, go to [this youtube video](https://www.youtube.com/watch?v=WmdMPfWAci0) to get a more fully updated version of this guide. It has some important notes on things you must disable / delete to stop your windows from forcefully reverting your settings.
+MAJOR NOTE: I may update this later, but in the meantime, go to [this youtube video](https://www.youtube.com/watch?v=WmdMPfWAci0) or [this comprehensive guide](guide.md) to get a fully updated version of this guide. It has some important notes on things you must disable / delete to stop your windows from forcefully reverting your settings.
 
 Force Loudness EQ for outputs that support enhancements - note, this will disable all software enhancements made by the headset (like DTS:X)
 
