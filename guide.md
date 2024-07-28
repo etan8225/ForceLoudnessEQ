@@ -1,6 +1,9 @@
 # ForceLoudnessEQ Guide
 ## *__First goal: Stop windows from auto-downloading drivers, as many effect audio enhancements.__*
 If you want your audio enhancements, you'll need to change some windows settings first. This guide is for users who know how to update their drivers manually. If you are uncertain, I would err on the side of caution and not do this. You _**may**_ be able to skip to the second section and have this guide still work, but the audio effects may not be permanent/may not work at all.
+
+Sidenote: on certain headsets, this will break the microphone's functionality. I may be able to find a fix but I am not entirely confident I will. If you use a seperate mic (not the one on your headset), this guide will not effect it.
+
 1. Start by pressing WindowsKey+R, and type in "sysdm.cpl", then hit enter.
 
 ![image](https://github.com/user-attachments/assets/d457e956-052f-4308-9d19-629a90430cc7)
